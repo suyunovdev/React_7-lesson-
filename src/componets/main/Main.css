@@ -1,0 +1,131 @@
+body {
+  background-color: black !important;
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px !important;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.Main {
+  display: flex;
+}
+.persons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  border-radius: 19px;
+  padding: 50px 0;
+  margin-top: 20px;
+  background-color: rgb(51 65 85);
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  color: rgb(99, 183, 99);
+  font-size: 3.4em;
+  margin-top: -40px;
+  margin-left: 20px;
+}
+.icone {
+  color: rgb(99, 183, 99);
+  font-size: 1.9em;
+  margin-top: -40px;
+  margin-right: 40px;
+}
+.chiziq {
+  border: 3px solid rgb(99 102 241);
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.sozlar {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.sozlar h4 {
+  color: rgb(99, 183, 99);
+  font-size: 1.8em;
+}
+.sozlar p {
+  color: rgb(99, 183, 99);
+  font-size: 1.8em;
+}
+.btn-click {
+  display: flex;
+  width: 100%;
+  justify-content: space-around !important;
+
+  align-items: center;
+}
+.btn-click button {
+  padding: 10px 0;
+  width: 15%;
+  border-radius: 18px;
+  background-color: rgb(51 65 85);
+  color: #ffffff40;
+  border: 2px solid #ffffff40;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.btn-click button:hover {
+  background-color: rgb(34, 111, 219);
+  color: #ffffff;
+}
+.todos {
+  display: flex;
+  flex-direction: column;
+  border-radius: 19px;
+  padding: 20px 0;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: rgb(51 65 85);
+}
+.div-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  gap: 20px;
+  background-color: rgb(132 204 22);
+  border-radius: 12px;
+  width: 80%;
+}
+.div-boxs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  border-radius: 19px;
+  padding: 20px 0;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: rgb(51 65 85);
+}
+.photo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 20px;
+  background-color: rgb(132 204 22);
+  border-radius: 10px;
+  width: 80%;
+}
+.photos {
+  width: 40%;
+  padding: 10px 10px;
+}
+.album {
+  padding: 0 10px;
+  color: #716666;
+}
